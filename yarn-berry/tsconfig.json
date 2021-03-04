@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "solutionbuild"
+  },
+  "files": [],
+  "include": [],
+  "references": [{ "path": "packages/app" }]
+}

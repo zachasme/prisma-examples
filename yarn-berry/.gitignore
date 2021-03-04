@@ -1,0 +1,13 @@
+!*
+build
+prisma/dev.db*
+tsconfig.tsbuildinfo
+
+# yarn zero installs
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/sdks
+!.yarn/patches
+!.yarn/plugins
+!.yarn/versions

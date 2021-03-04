@@ -1,0 +1,8 @@
+{
+  "name": "@example/app",
+  "main": "build/src/main.js",
+  "types": "build/src/main.d.ts",
+  "dependencies": {
+    "@example/pkg1": "workspace:*"
+  }
+}

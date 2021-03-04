@@ -1,0 +1,20 @@
+/**
+ * This is a base tsconfig for packages to extend from
+ */
+{
+  "compilerOptions": {
+    // required for project references
+    "composite": true,
+
+    // targeting node >= 14.16.0 LTS
+    // https://node.green/#ES2020
+    "lib": ["ES2020"], // what functions/properties are allowed
+    "target": "ES2020", // what syntax is allowed
+    "module": "CommonJS",
+
+    // the usual options
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "pretty": true
+  }
+}

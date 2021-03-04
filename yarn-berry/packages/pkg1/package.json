@@ -1,0 +1,8 @@
+{
+  "name": "@example/pkg1",
+  "main": "build/src/main.js",
+  "types": "build/src/main.d.ts",
+  "dependencies": {
+    "@example/prisma": "workspace:*"
+  }
+}
